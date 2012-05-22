@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQueryUI Google-like Buttons</title>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.red.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.blue.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.green.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.orange.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.grey.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.ice.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery-ui-1.8.20.pontillo.g.brown.css" type="text/css">
+		
+		<script>
+		$(function() {
+			// Buttons
+			$(".button").button();
+			
+			// Icon buttons
+			$("#one-icon").button({
+				icons: { primary: "ui-icon-home" }
+			});
+			$("#two-icon").button({
+				icons: { primary: "ui-icon-person",
+				secondary: "ui-icon-triangle-1-s" }
+			});
+			
+			// The toolbar
+			$("#tool-two-icon").button({
+				icons: {
+					primary: "ui-icon-gear",
+					secondary: "ui-icon-triangle-1-s"
+				},
+				text: true
+			});
+			$("#tool-one-icon").button({
+				icons: {
+					secondary: "ui-icon-triangle-1-s"
+				},
+				text: true
+			});
+			$("#tool-no-icon").button({
+				text: true
+			});
+			$("#toolbar").buttonset();
+		});
+		</script>
+	</head>
+		
+	<body>
+			<h1>jQueryUI Google-like Buttons</h1>
+			<h2>Porting Google products buttons to jQueryUI</h2>
+			
+			<hr>
+			
+			<!-- Regular buttons -->
+			<div>
+				<h3>Regular buttons</h3>
+				<div class="button g">default button</div>
+				<div class="button g red">red button</div>
+				<div class="button g blue">blue button</div>
+				<div class="button g green">green button</div>
+				<div class="button g orange">orange button</div>
+				<div class="button g grey">grey button</div>
+				<div class="button g ice">ice button</div>
+				<div class="button g brown">brown button</div>
+			</div>
+			
+			<br/>
+			
+			<!-- Small buttons -->
+			<div>
+				<h3>Small buttons</h3>
+				<div class="button g small">default small button</div>
+				<div class="button g red small">small red button</div>
+				<div class="button g blue small">small blue button</div>
+				<div class="button g green small">small green button</div>
+				<div class="button g orange small">small orange button</div>
+				<div class="button g grey small">small grey button</div>
+				<div class="button g ice small">small ice button</div>
+				<div class="button g brown small">small brown button</div>
+			</div>
+			
+			<br/>
+			
+			<!-- Regular block buttons -->
+			<div style="max-width:300px;">
+				<h3>Regular block buttons</h3>
+				<div class="button g block">default block button</div>
+				<div class="button g red block">red block button</div>
+				<div class="button g blue block">blue block button</div>
+				<div class="button g green block">green block button</div>
+				<div class="button g orange block">orange block button</div>
+				<div class="button g grey block">grey block button</div>
+				<div class="button g ice block">ice block button</div>
+				<div class="button g brown block">brown block button</div>
+			</div>
+			
+			<br/>
+			
+			<!-- Small block buttons -->
+			<div style="max-width:300px;">
+				<h3>Small block buttons</h3>
+				<div class="button g block small">default small block button</div>
+				<div class="button g red block small">red small block button</div>
+				<div class="button g blue block small">blue small block button</div>
+				<div class="button g green block small">green small block button</div>
+				<div class="button g orange block small">orange small block button</div>
+				<div class="button g grey block small">grey small block button</div>
+				<div class="button g ice block small">ice small block button</div>
+				<div class="button g brown block small">brown small block button</div>
+			</div>
+			
+			<br/>
+			
+			<!-- Regular buttons with icons -->
+			<div>
+				<h3>Regular buttons with icons</h3>
+				<div id="one-icon" class="g">default button</div>
+				<div id="two-icon" class="g red">red button</div>
+			</div>
+			
+			<br/>
+			
+			<!-- mixed toolbar -->
+			<div>
+				<h3>mixed toolbar</h3>
+				<div id="toolbar" class="inline-block">
+					<div id="tool-two-icon" class="g blue">Two icons</div>
+					<div id="tool-one-icon" class="g">One icon</div>
+					<div id="tool-no-icon" class="g">No icon</div>
+				</div>
+			</div>
+			
+	</body>
+</html>

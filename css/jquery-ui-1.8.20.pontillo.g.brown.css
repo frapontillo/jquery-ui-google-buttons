@@ -1,0 +1,45 @@
+/* PULSANTE GOOGLE-LIKE BROWN */
+.ui-button.g.brown {
+	background-color:  	#D4A98F;
+	background-image: -webkit-linear-gradient(top, #D4A98F, #CA9576);
+	background-image: -moz-linear-gradient(top, #D4A98F, #CA9576);
+	background-image: -ms-linear-gradient(top, #D4A98F, #CA9576);
+	background-image: -o-linear-gradient(top, #D4A98F, #CA9576);
+	background-image: linear-gradient(top, #D4A98F, #CA9576);
+	border: 			1px solid  #AA7656;
+	color:  			white;
+}
+.ui-state-hover.g.brown, .ui-widget-content .ui-state-hover.g.brown, .ui-widget-header .ui-state-hover.g.brown, .ui-state-focus.g.brown, .ui-widget-content .ui-state-focus.g.brown, .ui-widget-header .ui-state-focus.g.brown {
+	background-color:  #C69272;
+	background-image: -webkit-linear-gradient(top, #C69272, #BA7A54);
+	background-image: -moz-linear-gradient(top, #C69272, #BA7A54);
+	background-image: -ms-linear-gradient(top, #C69272, #BA7A54);
+	background-image: -o-linear-gradient(top, #C69272, #BA7A54);
+	background-image: linear-gradient(top, #C69272, #BA7A54);
+	border: 		1px solid  #966443;
+}
+.ui-state-active.g.brown, .ui-widget-content .ui-state-active.g.brown, .ui-widget-header .ui-state-active.g.brown {
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+	background-color:  #C69272;
+	background-image: -webkit-linear-gradient(top, #C69272, #9A6A4B);
+	background-image: -moz-linear-gradient(top, #C69272, #9A6A4B);
+	background-image: -ms-linear-gradient(top, #C69272, #9A6A4B);
+	background-image: -o-linear-gradient(top, #C69272, #9A6A4B);
+	background-image: linear-gradient(top, #C69272, #9A6A4B);
+	border: 		1px solid  #966443;
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.g.brown .ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-widget-content .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-widget-header .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-state-default .ui-icon { background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-state-hover .ui-icon, .g.brown .ui-state-focus .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-state-active .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
+.g.brown .ui-state-error .ui-icon, .g.brown .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_ffffff_256x240.png); }
