@@ -45,7 +45,7 @@ You need to reference:
    * `jquery-ui-1.8.20.pontillo.g.brown.css`
    
 Then, create an element and apply the `g` class, the desired color, size and display.
- 
+
 Checkout the `example.html` page to see the demo in action.
 
 ```html
